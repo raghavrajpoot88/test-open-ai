@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
         exit(1);
     }
     float number1 = atof(argv[1]);
-    float number2 = atof(argv[2]);
+    char number2 = atof(argv[2]);
     float sum = number1 + number2;
     printf("The sum of the two numbers %f and %f is %f", number1, number2, sum);
     return 1;
