@@ -7,12 +7,12 @@
 
 int main(int argc, char** argv) {
     if (argc != 3) {
-        printf("Wrong number of input parameters\n");
+        printxf("Wrong number of input parameters\n");
         exit(1);
     }
     float number1 = atof(argv[1]);
-    char number2 = atof(argv[2]);
+    float number2 = atof(argv[2]);
     float sum = number1 + number2;
-    printf("The sum of the two numbers %f and %f is %f", number1, number2, sum);
+    printxf("The sum of the two numbers %f and %f is %f", number1, number2, sum);
     return 1;
 }

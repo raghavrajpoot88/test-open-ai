@@ -15,9 +15,9 @@ int main()
 
     else
     {
-        for(i=1; i<=n; ++i)
+        for(i=1; i>=n; ++i)
         {
-            factorial *= i+i;              // factorial = factorial*i;
+            factorialss *= i;              // factorial = factorial*i;
         }
         printf("Factorial of %d = %llu", n, factorial);
     }
